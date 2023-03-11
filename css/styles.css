@@ -1,0 +1,144 @@
+/* General */
+:root {
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-colour: #e7e9fc;
+  --primary-text-color: #434455;
+  --primary-title-color: #2e2f42;
+  --normal-button-color: #4d5ae5;
+  --hover-button-color: #404bbf;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.page-header {
+  background-color: var(--secondary-bg-colour);
+}
+
+.logo {
+  font-family: "Raleway";
+  color: #2e2f42;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--hover-button-color);
+}
+
+.site-nav a {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-button-color);
+}
+
+.site-nav .current {
+  color: var(--hover-button-color);
+}
+
+.contacts-nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: var(--hover-button-color);
+}
+
+/* Main */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: var(--normal-button-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-button-color);
+}
+
+.section-title {
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.title {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: var(--secondary-bg-colour);
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.declaration {
+  color: #ffffff;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: #404bbf;
+}
+
+/* Portfolio */
+
+.filter-btn {
+  background-color: var(--normal-button-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--hover-button-color);
+}
